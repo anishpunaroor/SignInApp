@@ -5,7 +5,15 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.webiosadnroid.all",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.413058845235-ud562r7rrlbq7pns1822mbj4a8k6g7ji"
+        }
+      }
+    }
   },
   "name": "SignInApp"
 }
