@@ -7,12 +7,17 @@
       "**/*"
     ],
     "ios": {
+      "supportsTablet": true,
       "bundleIdentifier": "com.webiosadnroid.all",
       "config": {
         "googleSignIn": {
           "reservedClientId": "com.googleusercontent.apps.413058845235-ud562r7rrlbq7pns1822mbj4a8k6g7ji"
         }
       }
+    },
+    "android": {
+      "package": "com.niiti.hutouch", 
+      "versionCode": 1 
     }
   },
   "name": "SignInApp"
